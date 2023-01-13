@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--language attribute to html element is english-->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- meta data means data about the data.
+      we say that the character set should be UTF8,
+      which basically is all the simple characters that we use in the English language.-->
+    <title>The basic lang of web is HTML</title>
+  </head>
+  <body>
+    <!--
+    <h1>The basic lang of web is HTML</h1>
+    <h2>The basic lang of web is HTML</h2>
+    <h3>The basic lang of web is HTML</h3>    commenting this part of the code
+    <h4>The basic lang of web is HTML</h4>
+    <h5>The basic lang of web is HTML</h5>
+    <h6>The basic lang of web is HTML</h6>
+    -->
+    <header>
+      <!--a header box or layout or structure-->
+      <h1>📘 The Code Magazine</h1>
+      <!--the best practice is to have one h1 heading only one primary heading-->
+      <nav>
+        <!--invisible box for links navigation-->
+        <a href="Blog.html" target="_blank">My Blog</a>
+        <a href="#">Challenges</a>
+        <!--# symbol means a link goes nowhere it goes tothe begening of the page-->
+        <a href="#">flexbox</a>
+        <a href="#">css grid</a>
+      </nav>
+    </header>
+    <article>
+      <!-- a container-->
+      <!--use strong instead of
+    <b></b> bec. strong has semantic meaning that this text is important so it ist the best practice-->
+      <header>
+        <h2>The Basic Language of the Web: HTML</h2>
+        <img
+          src="imgs/laura-jones.jpg"
+          alt="the author picture"
+          width="50"
+          height="50"
+        />
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <img
+          src="imgs/post-img.jpg"
+          alt="HTML coolcode ON a screen"
+          width="500"
+          height="200"
+        />
+        <!--no content for image element but we use source attribute of the element 
+    alt attribute is some text that should describe what the image is about.
+  width and height are 500,200 half of 1000,400 og img dimension to keep the same aspect ratio-->
+      </header>
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em
+        ><!--emphasize instead of <i></i> for italic for thesame raeson-->
+        technologies: HTML, CSS and JavaScript. These are the languages of the
+        web.
+      </p>
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <!--tomake single letter bold-->
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language). HTML consists of elements
+        that describe different types of content: paragraphs, links, headings,
+        images, video, etc.
+      </p>
+      <p>
+        Web browsers understand HTML and render HTML code as websites. In HTML,
+        each element is made up of 3 parts:
+      </p>
+      <ol>
+        <!--ordered list 1.  2.  3.  -->
+        <!--list item-->
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element You can learn more at the MDN Web Docs.</li>
+      </ol>
+      <p>
+        <!--href attribute  where you put the link, target attribute to open the link in a new tab, MDN WEB DOCS is the link text-->
+        you can find more at :<a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >MDN WEB DOCS</a
+        >
+      </p>
+      <h3>Why should you learn HTML?</h3>
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+      <ul>
+        <!--unordered list -->
+        <!--list item-->
+        <li>To be able to use the fundamental web dev language</li>
+        <li>To build web applications.</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix.
+        </li>
+        <li>To impress friends.</li>
+        <li>To have fun 😃.</li>
+      </ul>
+      <button>HTML BUTTON</button>
+      <h3>Hopefully you learned something new here. See you next time!</h3>
+    </article>
+    <aside>
+      <h3>Related Posts</h3>
+      <ul>
+        <li>
+          <img src="imgs/related-1.jpg" alt="rel1" width="75" height="75" />
+          <a href="#" target="_blank">How to learn Web Dev</a>
+          <p>by Jonas schmedttman</p>
+        </li>
+        <li>
+          <img src="imgs/related-2.jpg" alt="rel2" width="75" height="75" />
+          <a href="#" target="_blank">The unknown power of CSS</a>
+          <p>by Jim Dillon</p>
+        </li>
+        <li>
+          <img src="imgs/related-3.jpg" alt="rel3" width="75" height="75" />
+          <a href="#" target="_blank">why JavaScript is awsome </a>
+          <p>by Matilda</p>
+        </li>
+      </ul>
+    </aside>
+    <footer>COPYRIGHT &copy; for the Magazine 2022</footer>
+  </body>
+</html>
